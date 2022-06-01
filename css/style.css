@@ -80,15 +80,18 @@ main{
 .discount {
     background-color: red;
     color: #fff;
+    box-shadow: 3px 4px 3px rgba(255, 0, 0, 0.449);
+    margin-left: 1%;
 }
 .eco {
     background-color: green;
     left:15%;
+    box-shadow: 3px  4px 3px rgba(0, 128, 0, 0.53);
 }
 .discount-price{
     color: red;
     font-weight: bold;
-    padding-left: 1%;
+    padding: 0 2% 0 0;
 }
 .original-price {
     text-decoration: line-through;
@@ -104,6 +107,9 @@ main{
 .card > span > * {
     padding: 2px;
 }
+#only{
+    left: 1%;
+}
 /* Effetti hover cards */
 .card:hover .second-photo {
     display: inline-block;
@@ -111,14 +117,9 @@ main{
 .card:hover img {
     display: none;
 }
-.fav-icon-shop:hover {
-    font-size: 3.5rem;
-    color: red;
-    transition: all 0.2s ease-in;
-}
-.fav-icon-shop:active {
-    font-size: 3.5rem;
-    color: red;
-    transition: all 0.2s ease-in;
-}
 /* Hover icona preferiti */
+.fav-icon-shop:hover, .fav-icon-shop:active {
+    font-size: 3.5rem;
+    color: red;
+    transition: all 0.2s ease-in;
+}
