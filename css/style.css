@@ -107,8 +107,13 @@ main{
 .card > span > * {
     padding: 2px;
 }
-#only{
+#only {
     left: 1%;
+}
+.card .no-bar {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
 }
 /* Effetti hover cards */
 .card:hover .second-photo {
@@ -122,4 +127,37 @@ main{
     font-size: 3.5rem;
     color: red;
     transition: all 0.2s ease-in;
+}
+/* Inizio parte footer */
+footer {
+    margin-bottom: 5px;
+    background-color: #000;
+    color:#fff ;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-left {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 6rem;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+}
+.link p {
+    margin-right: 1rem;
+}
+.foot-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding: 2rem 6rem;
+}
+#foot-icon {
+    padding-left: 0.8rem;
+    padding-top: 0.5rem;
+}
+#foot-icon, .link {
+    padding-top: 0.5rem;
 }
