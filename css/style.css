@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 200vh;
+}
+/* Header pagina */
+header {
+    background-color: #ff6900;
+    color: #fff;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1% 0%;
+}
+.categorie{
+    font-weight: bold;
+}
+.categorie a, .icons i {
+    margin-left: 0.5rem;
+}
+.categorie a:first-child {
+    margin-left: 0;
+}
+.logo{
+    width: 10%;
+}
+.logo img {
+    width: 85%;
+}
+.categorie a{
+    color: inherit;
+    text-decoration: none;
+}
+/* Corpo Pagina */
