@@ -58,7 +58,6 @@ main{
     position: relative;
     margin: 2%;
     width: calc(80% / 3);
-    height: calc(100% / 2 -5%);
     box-shadow: 5px 5px 15px black;
 }
 .card img {
@@ -149,7 +148,6 @@ footer {
 .foot-right {
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
     padding: 2rem 6rem;
 }
 #foot-icon {
