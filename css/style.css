@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    height: 200vh;
-}
 /* Header pagina */
 header {
     z-index: 1;
@@ -17,11 +14,12 @@ header {
 }
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 1% 0%;
+    padding: 1% 0;
+    margin: auto 6rem;
 }
-.categorie{
+.categorie {
     font-weight: bold;
 }
 .categorie a {
@@ -88,7 +86,7 @@ main{
     left:15%;
     box-shadow: 3px  4px 3px rgba(0, 128, 0, 0.53);
 }
-.discount-price{
+.discount-price {
     color: red;
     font-weight: bold;
     padding: 0 2% 0 0;
@@ -96,12 +94,10 @@ main{
 .original-price {
     text-decoration: line-through;
 }
-.fav-icon-shop{
-    width: 2rem;
-    color: #000;
+.fav-icon-shop {
+    font-size: 3rem;
     position: absolute;
     top:3%;
-    font-size: 3rem;
     right: 5%;
 }
 .card > span > * {
@@ -132,7 +128,7 @@ main{
 footer {
     margin-bottom: 5px;
     background-color: #000;
-    color:#fff ;
+    color: #fff;
     display: flex;
     justify-content: space-between;
 }
@@ -155,8 +151,11 @@ footer {
     padding: 2rem 6rem;
 }
 #foot-icon {
-    padding-left: 0.8rem;
+    padding-left: 0.5rem;
     padding-top: 0.5rem;
+}
+#foot-icon i {
+    padding-right: 3px;
 }
 #foot-icon, .link {
     padding-top: 0.5rem;
