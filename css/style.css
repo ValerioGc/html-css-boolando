@@ -8,10 +8,12 @@ body{
 }
 /* Header pagina */
 header {
+    z-index: 1;
     background-color: #ff6900;
     color: #fff;
     position: fixed;
     width: 100%;
+    box-shadow: 5px 5px 15px #0000005b;
 }
 .container {
     display: flex;
@@ -44,3 +46,79 @@ header {
     transition: all 0.5s ease-in-out;
 }
 /* Corpo Pagina */
+main{
+    padding-top: 5%;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    position: relative;
+    margin: 2%;
+    width: calc(80% / 3);
+    height: calc(100% / 2 -5%);
+    box-shadow: 5px 5px 15px black;
+}
+.card img {
+    width: 100%;
+}
+.card h4 {
+    text-transform: uppercase;
+}
+.second-photo {
+    display: none;
+}
+.discount, .eco {
+    padding: 1% 2%;
+    position: absolute;
+    bottom: 15%;
+    color: #fff;
+}
+.discount {
+    background-color: red;
+    color: #fff;
+}
+.eco {
+    background-color: green;
+    left:15%;
+}
+.discount-price{
+    color: red;
+    font-weight: bold;
+    padding-left: 1%;
+}
+.original-price {
+    text-decoration: line-through;
+}
+.fav-icon-shop{
+    width: 2rem;
+    color: #000;
+    position: absolute;
+    top:3%;
+    font-size: 3rem;
+    right: 5%;
+}
+.card > span > * {
+    padding: 2px;
+}
+/* Effetti hover cards */
+.card:hover .second-photo {
+    display: inline-block;
+}
+.card:hover img {
+    display: none;
+}
+.fav-icon-shop:hover {
+    font-size: 3.5rem;
+    color: red;
+    transition: all 0.2s ease-in;
+}
+.fav-icon-shop:active {
+    font-size: 3.5rem;
+    color: red;
+    transition: all 0.2s ease-in;
+}
+/* Hover icona preferiti */
