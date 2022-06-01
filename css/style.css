@@ -66,6 +66,7 @@ main{
 }
 .card h4 {
     text-transform: uppercase;
+    font-size: 1.3rem;
 }
 .second-photo {
     display: none;
@@ -77,18 +78,18 @@ main{
     color: #fff;
 }
 .discount {
-    background-color: red;
+    background-color: #ff0000;
     color: #fff;
-    box-shadow: 3px 4px 3px rgba(255, 0, 0, 0.449);
+    box-shadow: 3px 4px 3px #ff000072;
     margin-left: 1%;
 }
 .eco {
-    background-color: green;
+    background-color: #008000;
     left:15%;
-    box-shadow: 3px  4px 3px rgba(0, 128, 0, 0.53);
+    box-shadow: 3px  4px 3px #00800087;
 }
 .discount-price {
-    color: red;
+    color: #ff0000;
     font-weight: bold;
     padding: 0 2% 0 0;
 }
@@ -109,7 +110,7 @@ main{
 }
 .card .no-bar {
     text-decoration: none;
-    color: red;
+    color: #ff0000;
     font-weight: bold;
 }
 /* Effetti hover cards */
@@ -122,13 +123,13 @@ main{
 /* Hover icona preferiti */
 .fav-icon-shop:hover, .fav-icon-shop:active {
     font-size: 3.5rem;
-    color: red;
+    color: #ff0000;
     transition: all 0.2s ease-in;
 }
 /* Inizio parte footer */
 footer {
     margin-bottom: 5px;
-    background-color: #000;
+    background-color: #1a1a1a;
     color: #fff;
     display: flex;
     justify-content: space-between;
