@@ -1,7 +1,7 @@
 # **html-css-boolando**    <img height="25" align="right" src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg">
 
 
-> _Reproduction of a ~~responsive~~  Zalando's Webpage Layout  ~~with working mobile menu~~_
+> _Reproduction of  Zalando's Webpage Layout_
 
 
 <br/>
